@@ -299,7 +299,7 @@ services:
     # ports:
     #   - "6379:6379"
 
-  # The Weaviate vector store.
+    # The Weaviate vector store.
   weaviate:
     image: semitechnologies/weaviate:1.19.0
     restart: always
@@ -323,13 +323,13 @@ services:
     # ports:
     #  - "8080:8080"
 
-  # The DifySandbox
+    # The DifySandbox
   sandbox:
     image: langgenius/dify-sandbox:latest
     restart: always
     cap_add:
-    # Why is sys_admin permission needed?
-    # https://docs.dify.ai/getting-started/install-self-hosted/install-faq#id-16.-why-is-sys_admin-permission-needed
+      # Why is sys_admin permission needed?
+      # https://docs.dify.ai/getting-started/install-self-hosted/install-faq#id-16.-why-is-sys_admin-permission-needed
       - SYS_ADMIN
     environment:
       # The DifySandbox configurations
@@ -366,5 +366,5 @@ services:
       - api
       - web
     ports:
-      - "80:80"
+      - "8088:80"
       #- "443:443"
