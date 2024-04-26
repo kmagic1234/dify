@@ -2,7 +2,6 @@ import type { ChangeEvent } from 'react'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import s from './style.module.css'
-import LogoSite from '@/app/components/base/logo/logo-site'
 import Switch from '@/app/components/base/switch'
 import Button from '@/app/components/base/button'
 import { Loading02 } from '@/app/components/base/icons/src/vender/line/general'
@@ -122,7 +121,7 @@ const CustomWebAppBrand = () => {
                 {
                   webappLogo
                     ? <img key={webappLogo} src={webappLogo} alt='logo' className='ml-2 block w-auto h-5' />
-                    : <LogoSite className='ml-2 !h-5' />
+                    : null
                 }
               </div>
             )

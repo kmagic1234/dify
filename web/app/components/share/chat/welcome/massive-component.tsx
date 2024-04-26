@@ -9,7 +9,6 @@ import {
 import s from './style.module.css'
 import type { SiteInfo } from '@/models/share'
 import Button from '@/app/components/base/button'
-import LogoSite from '@/app/components/base/logo/logo-site'
 
 export const AppInfo: FC<{ siteInfo: SiteInfo }> = ({ siteInfo }) => {
   return (
@@ -70,5 +69,5 @@ export const EditBtn = ({ className, onClick }: { className?: string; onClick: (
 }
 
 export const FootLogo = () => (
-  <LogoSite className='!h-5' />
+  <div></div>
 )

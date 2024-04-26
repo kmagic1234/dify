@@ -14,7 +14,6 @@ import ToolsNav from './tools-nav'
 import GithubStar from './github-star'
 import { WorkspaceProvider } from '@/context/workspace-context'
 import { useAppContext } from '@/context/app-context'
-import LogoSite from '@/app/components/base/logo/logo-site'
 import PlanComp from '@/app/components/billing/plan'
 import useBreakpoints, { MediaType } from '@/hooks/use-breakpoints'
 import { useProviderContext } from '@/context/provider-context'
@@ -54,7 +53,6 @@ const Header = () => {
         </div>}
         {!isMobile && <>
           <Link href="/apps" className='flex items-center mr-4'>
-            <LogoSite className='object-contain' />
           </Link>
           <GithubStar />
         </>}
@@ -62,7 +60,6 @@ const Header = () => {
       {isMobile && (
         <div className='flex'>
           <Link href="/apps" className='flex items-center mr-4'>
-            <LogoSite />
           </Link>
           <GithubStar />
         </div>

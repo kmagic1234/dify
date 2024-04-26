@@ -7,7 +7,6 @@ import Modal from '@/app/components/base/modal'
 import { XClose } from '@/app/components/base/icons/src/vender/line/general'
 import type { LangGeniusVersionResponse } from '@/models/common'
 import { IS_CE_EDITION } from '@/config'
-import LogoSite from '@/app/components/base/logo/logo-site'
 
 type IAccountSettingProps = {
   langeniusVersionInfo: LangGeniusVersionResponse
@@ -35,7 +34,6 @@ export default function AccountAbout({
           <XClose className='w-4 h-4 text-gray-500' />
         </div>
         <div>
-          <LogoSite className='mx-auto mb-2' />
           <div className='mb-3 text-center text-xs font-normal text-gray-500'>Version {langeniusVersionInfo?.current_version}</div>
           <div className='mb-4 text-center text-xs font-normal text-gray-700'>
             <div>© 2023 LangGenius, Inc., Contributors.</div>
