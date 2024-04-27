@@ -29,7 +29,7 @@ const translation = {
   },
   completionMode: {
     title: 'Completion App API',
-    info: 'Đối với việc tạo văn bản chất lượng cao, như bài viết, tóm tắt và dịch thuật, hãy sử dụng API hoàn thành tin nhắn với đầu vào người dùng. Việc tạo văn bản dựa trên các thông số mô hình và mẫu đề xuất được thiết lập trong Dify Prompt Engineering.',
+    info: 'Đối với việc tạo văn bản chất lượng cao, như bài viết, tóm tắt và dịch thuật, hãy sử dụng API hoàn thành tin nhắn với đầu vào người dùng. Việc tạo văn bản dựa trên các thông số mô hình và mẫu đề xuất được thiết lập trong Laiye Prompt Engineering.',
     createCompletionApi: 'Tạo tin nhắn hoàn thành',
     createCompletionApiTip: 'Tạo một tin nhắn hoàn thành để hỗ trợ chế độ câu hỏi và trả lời.',
     inputsTips: '(Tùy chọn) Cung cấp các trường đầu vào người dùng dưới dạng cặp khóa-giá trị, tương ứng với các biến trong Prompt Eng. Khóa là tên biến, Giá trị là giá trị tham số. Nếu loại trường là Lựa chọn, Giá trị đã gửi phải là một trong các lựa chọn đã thiết lập trước.',
