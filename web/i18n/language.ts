@@ -24,25 +24,25 @@ export const languages = [
   {
     value: 'en-US',
     name: 'English (United States)',
-    example: 'Hello, Dify!',
+    example: 'Hello, Laiye!',
     supported: true,
   },
   {
     value: 'zh-Hans',
     name: '简体中文',
-    example: '你好，Dify！',
+    example: '你好，Laiye！',
     supported: true,
   },
   {
     value: 'pt-BR',
     name: 'Português (Brasil)',
-    example: 'Olá, Dify!',
+    example: 'Olá, Laiye!',
     supported: true,
   },
   {
     value: 'es-ES',
     name: 'Español (España)',
-    example: 'Saluton, Dify!',
+    example: 'Saluton, Laiye!',
     supported: false,
   },
   {
